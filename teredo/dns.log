@@ -1,0 +1,15 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2013-04-09-21-01-43
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]
+1210953058.350065	m2EJRWK7sCg	192.168.2.16	1920	192.168.2.1	53	udp	16995	ipv6.google.com	1	C_INTERNET	28	AAAA	0	NOERROR	F	F	T	T	0	ipv6.l.google.com,2001:4860:0:2001::68	8655.000000,300.000000
+1210953058.437564	m2EJRWK7sCg	192.168.2.16	1920	192.168.2.1	53	udp	19995	ipv6.google.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	ipv6.l.google.com	8655.000000
+1210953058.577231	jX70z2ENIHb	192.168.2.16	137	192.168.2.255	137	udp	34404	IPV6.GOOGLE.COM	1	C_INTERNET	32	NB	-	-	F	F	T	F	1	-	-
+1210953074.452585	oe92raEAUmg	192.168.2.16	1920	192.168.2.1	53	udp	34278	www.wireshark.org	1	C_INTERNET	1	A	0	NOERROR	T	F	T	T	0	67.228.110.120	14400.000000
+1210953074.426810	oe92raEAUmg	192.168.2.16	1920	192.168.2.1	53	udp	26746	www.wireshark.org.gateway.2wire.net	1	C_INTERNET	28	AAAA	5	REFUSED	F	F	T	F	0	-	-
+1210953074.264819	oe92raEAUmg	192.168.2.16	1920	192.168.2.1	53	udp	38477	www.wireshark.org	1	C_INTERNET	28	AAAA	0	NOERROR	F	F	T	F	0	-	-
+#close	2013-04-09-21-01-43

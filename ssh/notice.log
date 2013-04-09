@@ -1,0 +1,12 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	notice
+#open	2013-04-09-21-46-54
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	note	msg	sub	src	dst	p	n	peer_descr	actions	policy_items	suppress_for	dropped	remote_location.country_code	remote_location.region	remote_location.city	remote_location.latitude	remote_location.longitude	metric_index.host	metric_index.str	metric_index.network
+#types	time	string	addr	port	addr	port	enum	enum	string	string	addr	addr	port	count	string	table[enum]	table[count]	interval	bool	string	string	string	double	double	addr	string	subnet
+1320435609.665872	bj1YYvXHoH7	172.16.238.1	58396	172.16.238.129	22	tcp	SSH::Login	Heuristically detected successful SSH login.	-	172.16.238.1	172.16.238.129	22	-	bro	Notice::ACTION_LOG	6	3600.000000	F	-	-	-	-	-	-	-	-
+1320435718.785291	PjlHIbRVeVe	172.16.238.1	58395	172.16.238.168	22	tcp	SSH::Login	Heuristically detected successful SSH login.	-	172.16.238.1	172.16.238.168	22	-	bro	Notice::ACTION_LOG	6	3600.000000	F	-	-	-	-	-	-	-	-
+1320435957.566311	kXb4N9Qaai8	172.16.238.1	58436	172.16.238.136	22	tcp	SSH::Login	Heuristically detected successful SSH login.	-	172.16.238.1	172.16.238.136	22	-	bro	Notice::ACTION_LOG	6	3600.000000	F	-	-	-	-	-	-	-	-
+#close	2013-04-09-21-46-54
